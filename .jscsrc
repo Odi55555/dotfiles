@@ -1,0 +1,38 @@
+{
+    "requireCurlyBraces": ["if", "else", "for", "while", "do"],
+    "requireSpaceAfterKeywords": ["if", "else", "for", "while", "do", "switch", "return"],
+    "disallowKeywordsOnNewLine": ["else"],
+    "requireSpacesInsideObjectBrackets": "all",
+    "requireSpaceAfterBinaryOperators": [":"],
+    "requireSpaceBeforeBinaryOperators": ["=", "+", "-", "/", "*", "==", "===", "!=", "!=="],
+    "disallowSpaceBeforePostfixUnaryOperators": ["++", "--"],
+    "disallowSpaceAfterPrefixUnaryOperators": ["++", "--", "+", "-"],
+    "disallowSpaceBeforePostfixUnaryOperators": ["++", "--"],
+    "disallowKeywords": ["with"],
+    "excludeFiles": ["app/ux/**/*.js", "app/template/**/*.js"],
+    "requireSpacesInConditionalExpression": {
+        "afterTest": true,
+        "beforeConsequent": true,
+        "afterConsequent": true,
+        "beforeAlternate": true
+    },
+    "validateQuoteMarks": {
+        "mark": "'",
+        "escape": true
+    },
+    "requireSpacesInFunctionExpression": {
+        "beforeOpeningCurlyBrace": true
+    },
+    "requireMultipleVarDecl": true,
+    "disallowTrailingWhitespace": true,
+    "requireBlocksOnNewline": true,
+    "disallowEmptyBlocks": true,
+    "disallowMultipleLineBreaks": true,
+    "requireLineFeedAtFileEnd": true,
+    "disallowSpaceAfterObjectKeys": true,
+    "requireParenthesesAroundIIFE": true,
+    "requireCapitalizedConstructors": true,
+    "requireDotNotation": true,
+    "validateIndentation": 2,
+    "validateLineBreaks": "LF"
+}
