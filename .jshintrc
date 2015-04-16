@@ -17,7 +17,6 @@
   "camelcase": true,
   "curly": true,
   "unused": true,
-  "strict": true,
   "forin": true,
 
   "globalstrict": false,
