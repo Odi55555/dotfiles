@@ -15,7 +15,6 @@
   "noempty": true,
   "nonbsp": true,
   "nonew": true,
-  "camelcase": true,
   "curly": true,
   "unused": true,
   "forin": true,
